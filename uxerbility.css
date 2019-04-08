@@ -5,64 +5,78 @@ html,body{
     height: 100%;
     overflow-x: hidden;
 }
+.wrapper{
+    position: absolute;
+height: 1872px;
+background: linear-gradient(180deg, rgba(239, 135, 33, 0.04) 28.19%, #E7404C 83.09%);
+opacity: 0.1;
+}
+.header-wrapper{
+    position: relative;
+}
 .logo{
     height: 50px;
+    margin-top: 60px;
 }
 .header-content1{
-    margin-top: 136px; 
-    font-family: Noto Serif KR;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 45px;
-text-align: center;
-color: #000000;
+    margin-top: 125px;
+    font-family: SF Pro Display;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    color: #312A28;
 }
 .header-content2{
-    margin-top: 20px;
-    font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 300;
-line-height: 36px;
-font-size: 20px;
+    margin-top: 35px;
+    font-family: Circular Std;
+font-size: 16px;
+line-height: 28px;
+font-weight: normal;
 text-align: center;
-color: #000000;
+color: #595959;
 opacity: 0.8;
 }
 .header-btn{
     width: 180px;
     height: 55px; 
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .together-btn{
-    width: 180px;
-    height: 55px; 
-    margin: auto;
-    margin-top: 40px;
-    background: #FAA634;
-    font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 16px;
-text-align: center;
+    width: 300px;
+height: 62px;
+background: linear-gradient(213.5deg, #EF8721 52.71%, #E7404C 101.4%);
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 border: none;
-color: #000000;
+border-radius: 50px;
+margin-top: 50px;
+font-family: SF Pro Display;
+font-size: 20px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
+}
+.together-btn:hover{
+    background: linear-gradient(213.5deg, #EF8721 52.71%, #E7404C 101.4%);
+box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.15);
+}
+.together-btn:active{
+    background: #F7541F;
+box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.15);
 }
 .meet{
-    margin-top: 180px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 45px;
-    font-size: 20px;
-    color: #000000;
-    opacity: 0.8; 
-    float: left;
+    margin-top: 150px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 42px;
+color: #000000;
+opacity: 0.8;
 }
 .clients{
-    margin-top: 185px;
+    margin-top: 58px;
 }
 .clients img{
     height: 20px;
@@ -81,105 +95,105 @@ color: #000000;
 }
 .main1-1-header{
 margin-top: 150px;
-font-family: Noto Serif KR;
+font-family: SF Pro Display;
 font-style: normal;
-font-weight: 600;
+font-weight: bold;
+font-size: 30px;
 line-height: normal;
-font-size: 40px;
-color: #000000;
+text-align: center;
+color: #312A28;
 }
 .main1-1-content{
 margin-top: 30px;
-font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 300;
-line-height: 36px;
-font-size: 20px;
-color: #000000;
+font-family: Circular Std;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #595959;
 opacity: 0.8;
 }
 .main2{
-background: #000000;
-padding-bottom: 50px;
+    margin-top: 120px;
+background: url('img/Group 5.svg') no-repeat;
 }
 .main2-header{
-    margin-top: 50px;
-    font-family: Noto Serif KR;
+    margin-top: 200px;
+    font-family: SF Pro Display;
 font-style: normal;
-font-weight: 600;
+font-weight: normal;
+font-size: 30px;
 line-height: normal;
-font-size: 50px;
 text-align: center;
 color: #FFFFFF;
 }
 .main2-header-content{
-    margin-top: 20px;
-    font-family: IBM Plex Sans;
+    margin-top: 30px;
+    font-family: Circular Std;
 font-style: normal;
-font-weight: 300;
-line-height: 36px;
-font-size: 20px;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
 text-align: center;
-color: rgb(194, 191, 191);
+color: #FFFFFF;
 opacity: 0.8;
 }
 .main2-1-header{
-    margin-top: 50px;
-    font-family: IBM Plex Sans;
+    margin-top: 120px;
+    font-family: SF Pro Display;
 font-style: normal;
-font-weight: 300;
+font-weight: normal;
+font-size: 30px;
 line-height: normal;
-font-size: 38px;
 text-align: center;
-color: #FAA634;
+color: #FFFFFF;
 }
 .discovery{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 .experience{
-    margin-top: 60px;
+    margin-top: 80px;
 }
 .research-text{
 margin-top: 50px;
-font-family: IBM Plex Sans;
+font-family: SF Pro Display;
 font-style: normal;
-font-weight: normal;
+font-weight: bold;
+font-size: 20px;
 line-height: normal;
-font-size: 27px;
 text-align: center;
 color: #FFFFFF;
 }
 .research-content{
 margin-top: 30px; 
-font-family: IBM Plex Sans;
+font-family: Circular Std;
 font-style: normal;
-font-weight: 300;
-line-height: 36px;
-font-size: 17px;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
 text-align: center;
 color: #FFFFFF;
 opacity: 0.8;
 }
 .experience-text{
     margin-top: 50px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 27px;
-    text-align: center;
-    color: #FFFFFF;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
     }
     .experience-content{
     margin-top: 30px; 
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 36px;
-    font-size: 17px;
-    text-align: center;
-    color: #FFFFFF;
-    opacity: 0.8;
+    font-family: Circular Std;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.8;
     }
     .main3{
         padding-bottom: 50px;
@@ -188,21 +202,20 @@ opacity: 0.8;
     .main3-header{
         width: 433px;
         height: 72px;
-        margin: auto;
-        margin-top: 60px;
-        font-family: Noto Serif KR;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        font-size: 50px;
-        text-align: center;
-        color: #000000; 
+        margin-top: 150px;
+        font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: normal;
+color: #312A28; 
     }
     .fcmb-card{
-        height: 320px;
+        height: 400px;
 margin-top: 50px;
-background: #000000;
-opacity: 0.8;
+background: url('img/Mask Group1.png') no-repeat;
+border-radius: 10px;
+box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.08);
     }
     .lending-card{
         height: 320px;
@@ -217,33 +230,34 @@ background: #000000;
 opacity: 0.8;
     }
     .fcmb-content{
-        margin-left: 10px;
-margin-top: 30px;
-font-family: Noto Serif KR;
+margin-top: 20px;
+font-family: Circular Std;
 font-style: normal;
-font-weight: 550;
-line-height: 40px;
-font-size: 40px;
-color: #FFFFFF;
+font-weight: normal;
+font-size: 16px;
+line-height: normal;
+color: #595959;
+opacity: 0.7;
+border-radius: 10px;
     }
     .fcmb-text{
-    margin-top: 150px;
-    margin-left: 10px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-size: 30px;
-    color: #FFFFFF;
-    float: left;
+        margin-top: 327px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: normal;
+        color: #595959;
+        border-radius: 10px;
     }
     .arrow{
         margin-top: 150px;
-        float: right;
     }
     .main4{
-        padding-bottom: 50px;
-        background: #F8992D;
+        margin-top: 90px;
+        padding-bottom: 70px;
+        opacity: 0.75;
+        border-top: 1px solid #C2C2C2;
     }
     .about-pic{
         margin-top: 50px;
@@ -286,11 +300,10 @@ color: #FFFFFF;
         float: left;
     }
     .social{
-        width: 105px;
+        width: 150px;
     height: 25px;
     margin-top: 50px;
-    margin-right: 100px;
-    float: right;
+    float: left;
     }
     .twitter{
         margin-left: 10px;
@@ -298,33 +311,63 @@ color: #FFFFFF;
     .facebook{
         margin-left: 10px;
     }
+    .medium{
+        margin-left: 10px;
+    }
+    .start-text{
+        margin-top: 68px;
+        font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: normal;
+color: #312A28;
+    }
+    .start-content{
+        width: 327px;
+height: 57px;
+        margin-top: 20px;
+        font-family: Circular Std;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #595959;
+opacity: 0.8;
+    }
+    .logo-footer{
+        float: right;
+        margin-right: 117px;
+        margin-top: 10px;
+    }
     @media only screen and (max-width: 576px){
         .header-content1{
-            font-family: Noto Serif KR;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 28px;
-text-align: center;
-color: #000000;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 39px;
+            text-align: center;
+            color: #312A28;
         }
         .header-content2{
-            font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 300;
-line-height: 25px;
-font-size: 16px;
-text-align: center;
-color: #000000;
-opacity: 0.8;
+            font-family: Circular Std;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            color: #595959;
+            opacity: 0.8;
         }
         .meet{
             margin-top: 120px;
-            font-family: IBM Plex Sans;
+            margin-bottom: 80px;
+            font-family: SF Pro Display;
 font-style: normal;
-font-weight: normal;
-line-height: 29px;
-font-size: 16px;
+font-weight: bold;
+font-size: 20px;
+line-height: 33px;
 color: #000000;
 opacity: 0.8;
         }
@@ -342,105 +385,112 @@ opacity: 0.8;
         }
         .main1-1-header{
             margin-top: 100px;
-            font-family: Noto Serif KR;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 26px;
-text-align: center;
-color: #000000;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: normal;
+            text-align: center;
+            color: #312A28;
         }
         .main1-1-content{
-            font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 300;
-line-height: 25px;
-font-size: 14px;
-text-align: center;
-color: #000000;
-opacity: 0.8;
+            font-family: Circular Std;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            color: #595959;
+            opacity: 0.8;
+        }
+        .main2{
+            background: url('img/Group 2 (1).svg') no-repeat;
         }
         .main2-header{
-            font-family: Noto Serif KR;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 26px;
-text-align: center;
-color: #FFFFFF;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: normal;
+            text-align: center;
+            color: #FFFFFF;
         }
         .main2-header-content{
-            font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 300;
-line-height: 25px;
-font-size: 14px;
-text-align: center;
-color: #FFFFFF;
-opacity: 0.8;
+            font-family: Circular Std;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 0.8;
         }
         .main2-1-header{
-            font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-font-size: 22px;
-text-align: center;
-color: #FAA634;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: normal;
+            text-align: center;
+            color: #FFFFFF;
         }
         .research-pic{
             height: 40px;
         }
         .research-text{
-            font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 18px;
-text-align: center;
-color: #FFFFFF;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: normal;
+            text-align: center;
+            color: #FFFFFF;
         }
         .research-content{
-            font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 300;
-line-height: 25px;
-font-size: 14px;
-text-align: center;
-color: #FFFFFF;
-opacity: 0.8;
+            font-family: Circular Std;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 0.8;
         }
         .experience-pic{
             height: 40px;
             margin-top: 30px;
         }
         .experience-text{
-            font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 18px;
-text-align: center;
-color: #FFFFFF;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: normal;
+            text-align: center;
+            color: #FFFFFF;
         }
         .experience-content{
-            font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: 300;
-line-height: 25px;
-font-size: 14px;
-text-align: center;
-color: #FFFFFF;
-opacity: 0.8;
+            font-family: Circular Std;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 0.8;
         }
     .main3-header{
-        font-family: Noto Serif KR;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 28px;
-text-align: center;
-color: #000000;
+        width: 246px;
+        height: 32px;
+        margin: auto;
+        margin-top: 200px;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: normal;
+        text-align: center;
+        color: #312A28;
     }
     .fcmb-card{
         margin-top: 30px;
@@ -484,17 +534,60 @@ text-align: center;
 color: #000000;
 opacity: 0.8;
     }
+    .start-text{
+        font-family: SF Pro Display;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: normal;
+color: #312A28;
+    }
+    .start-content{
+        font-family: Circular Std;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 25px;
+text-align: center;
+color: #595959;
+opacity: 0.8;
+    }
+    .logo-footer{
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .social{
+        margin-bottom: 50px;
+    }
  }
  @media only screen and (max-width: 768px){
-     .main4{
-         text-align: center;
-     }
      .main3-header{
          font-size: 30px;
+         text-align: center;
+         margin: auto;
      }
- }
- @media only screen and (max-width: 992px){
-    .main4{
-        text-align: center;
+     .clients{
+        margin-top: 58px;
     }
+    .header-content1{
+        margin-top: 150px;
+    }
+    .main2-header{
+        margin-top: 50px;
+    }
+    .main2{
+            background: url('img/Group 2.svg') no-repeat;
+        }
+ }
+ @media only screen and (max-width: 1024px){
+     .main3-header{
+         margin-top: 100px;
+     }
+     .main2-header{
+         margin-top: 130px;
+     }
+     .main2-1-header{
+         margin-top: 90px;
+     }
 }
